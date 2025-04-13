@@ -2,8 +2,19 @@ import React from 'react'
 import { words } from '../constants'
 import Button from '../components/Button'
 import IntroModel from '../components/models/hero/IntroModel'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 const Hero = () => {
+    // Calling useGSAP Hook for Animation
+    useGSAP(() => {
+        // Changing from and to positions of target elements
+        gsap.fromTo('.hero-text h1',
+            { y: 50, opacity: 0 },
+            { y:0 , opacity: 1, stagger: 0.5, duration: 1, ease: 'power2.inOut' }
+        )
+    })
+
     return (
         <section id='hero' className='relative overflow-hidden'>
             <div className='hidden md:block absolute top-0 left-1/12 w-[15vw] h-[30vh] bg-purple-100 z-10 blur-xs'></div>
@@ -28,7 +39,7 @@ const Hero = () => {
                                     </span>
                                 </span>
                             </h1>
-                            <h1>To Life</h1>
+                            <h1>Into Reality</h1>
                         </div>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
                             Hi, I'm Shrey—a tech enthusiast with a passion for building impactful digital solutions.
