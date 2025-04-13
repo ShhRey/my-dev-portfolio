@@ -13,7 +13,7 @@ const counterItems = [
     { value: 2, suffix: "+", label: "Years of Experience" },
     { value: 12, suffix: "+", label: "Projects Delivered" },
     { value: 20, suffix: "+", label: "Tools Mastered" },
-    { value: 5000, suffix: "%", label: "Users Impacted" },
+    { value: 500, suffix: "+", label: "Users Impacted" },
   ];
 
 
