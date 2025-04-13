@@ -53,7 +53,13 @@ section {
     }
   }
   .hero-3d-layout {
-    @apply xl:w-[60%] w-full h-full min-h-[50vh] absolute xl:top-20 top-36 xl:-right-20 right-0;
+    @apply xl:w-[60%] w-full h-[70vh] xl:h-[90vh] absolute xl:top-20 top-32 xl:-right-20 right-0;
+  }
+  .padding-x-lg {
+    @apply px-5 md:px-20;
+  }
+  .grid-4-cols {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7;
   }
 }
 
