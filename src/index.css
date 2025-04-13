@@ -1,7 +1,20 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Roboto&display=swap');
 
 html, body {
   width: 100vw;
   background-color: black;
   color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Setting up Colors acc to Figma Design */
+@theme {
+  --color-white-50: #D9ECFF;
+  --color-yellow-50: #FFE873;
+  --color-yellow-100: #E6D268;
+  --color-purple-50: #D2A6FF;
+  --color-purple-100: #763CAC;
+  --color-purple-200: #484892;
 }
