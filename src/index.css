@@ -2,12 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 
 html, body {
-  width: 100vw;
+  width: 100dvw;
   background-color: black;
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
   font-family: 'Mona Sans', sans-serif;
+}
+
+section {
+  width: 100dvw;
 }
 
 /* Setting up Colors acc to Figma Design */
@@ -48,6 +52,9 @@ html, body {
       @apply absolute pt-0 px-2 md:px-5 py-[30px] h-[48px] md:h-[78px] md:translate-y-1 translate-y-0 overflow-hidden;
     }
   }
+  .hero-3d-layout {
+    @apply xl:w-[60%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
+  }
 }
 
 .slide {
@@ -76,6 +83,7 @@ html, body {
 .cta-wrapper {
   @apply relative z-20 cursor-pointer;
 }
+
 .cta-button {
   @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
 

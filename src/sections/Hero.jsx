@@ -1,12 +1,12 @@
 import React from 'react'
 import { words } from '../constants'
 import Button from '../components/Button'
+import IntroModel from '../components/models/hero/IntroModel'
 
 const Hero = () => {
     return (
         <section id='hero' className='relative overflow-hidden'>
-            {/* Random Shapes */}
-            <div className='absolute top-0 left-30 w-[240px] h-[270px] bg-purple-100 z-10'></div>
+            <div className='hidden md:block absolute top-0 left-1/12 w-[15vw] h-[30vh] bg-purple-100 z-10 blur-xs'></div>
             <div className="hero-layout">
                 {/* Left: Hero Content */}
                 <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
@@ -40,7 +40,13 @@ const Hero = () => {
                         />
                     </div>
                 </header>
+
                 {/* Right: 3D-Model */}
+                <figure>
+                    <div className="hero-3d-layout">
+                        <IntroModel />
+                    </div>
+                </figure>
             </div>
         </section>
     )
