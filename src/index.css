@@ -12,6 +12,7 @@ html, body {
 
 /* Setting up Colors acc to Figma Design */
 @theme {
+  --color-black-200: #282732;
   --color-white-50: #D9ECFF;
   --color-yellow-50: #FFE873;
   --color-yellow-100: #E6D268;
@@ -70,4 +71,28 @@ html, body {
   62.5% { transform: translateY(-62.5%) }
   75% { transform: translateY(-75%) }
   87.5% { transform: translateY(-87.5%) }
+}
+
+.cta-wrapper {
+  @apply relative z-20 cursor-pointer;
+}
+.cta-button {
+  @apply px-4 py-4 rounded-lg bg-black-200 flex justify-center items-center relative cursor-pointer overflow-hidden;
+
+  .bg-circle {
+    @apply absolute -right-10 origin-center top-1/2 -translate-y-1/2 
+      w-[120%] h-[120%] group-hover:size-10 group-hover:right-10
+      rounded-full bg-white-50 transition-all duration-500;
+  }
+  .text {
+    @apply uppercase md:text-lg text-black transition-all duration-500
+      group-hover:text-white-50 group-hover:-translate-x-5 xl:translate-x-0 -translate-x-5;
+  }
+  .arrow-wrapper {
+    @apply group-hover:bg-white-50 size-10 rounded-full absolute right-10 top-1/2 
+      -translate-y-1/2 flex justify-center items-center overflow-hidden;
+    img {
+      @apply size-5 xl:-translate-y-32 translate-y-0 animate-bounce group-hover:translate-y-0 transition-all duration-500;
+    }
+  }
 }
