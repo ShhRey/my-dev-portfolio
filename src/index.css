@@ -35,6 +35,12 @@ section {
   .flex-col-center {
     @apply flex flex-col justify-center items-center;
   }
+  .proj-gradient-border {
+    box-shadow: 0 0 5px 1px;
+    box-shadow: 0 0 3px 1px #0E0E10, 
+                0 0 8px 3px #FFE873, 
+                0 0 10px 5px #763CAC;
+  }
 }
 
 /* Define Custom Styles scoped to other components */
@@ -158,7 +164,7 @@ section {
     }
 
     .first-project-wrapper {
-      @apply h-auto flex flex-col justify-between xl:w-[50%] bg-black-100 p-6 rounded-xl;
+      @apply h-auto flex flex-col justify-between xl:w-[60%] bg-black-100 p-6 rounded-xl;
 
       .image-wrapper {
         @apply relative overflow-hidden rounded-xl;
@@ -178,7 +184,7 @@ section {
     }
 
     .project-list-wrapper {
-      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
+      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%] bg-black-100 p-6 rounded-xl;
       .image-wrapper {
         @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
       }
