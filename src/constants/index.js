@@ -1,3 +1,22 @@
+const navLinks = [
+    {
+      name: "About",
+      link: "#about"
+    },
+    {
+      name: "Projects",
+      link: "#projects",
+    },
+    {
+      name: "Journey",
+      link: "#experience",
+    },
+    {
+      name: "Skills",
+      link: "#skills",
+    },
+  ];
+
 const words = [
     {text: 'Code', imgPath: 'images/code.svg'},
     {text: 'Ideas', imgPath: 'images/ideas.svg'},
@@ -19,6 +38,7 @@ const counterItems = [
 
 
 export {
+    navLinks,
     words,
     counterItems
 }
