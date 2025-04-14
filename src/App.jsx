@@ -1,7 +1,8 @@
 import React from 'react'
-import Hero from './sections/Hero'
 import NavBar from './components/Navbar'
+import Hero from './sections/Hero'
 import FeatureCards from './sections/FeatureCards'
+import Projects from './sections/Projects'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <FeatureCards />
+      <Projects />
     </>
   )
 }
