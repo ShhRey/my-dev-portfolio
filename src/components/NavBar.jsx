@@ -18,7 +18,7 @@ const NavBar = () => {
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
             <div className='inner'>
                 {/* DevName to return to Top */}
-                <a className='logo' href="#hero">Shrey Trivedi</a>
+                <a className='logo bg-black-100 p-2 rounded-lg' href="#hero">Shrey Trivedi</a>
                 {/* Appear Only in Desktop Screen */}
                 <nav className='desktop'>
                     <ul>
