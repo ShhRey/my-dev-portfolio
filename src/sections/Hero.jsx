@@ -18,7 +18,7 @@ const Hero = () => {
 
     return (
         <section id='hero' className='relative overflow-hidden'>
-            <div className='hidden md:block absolute top-0 left-1/12 w-[15vw] h-[30vh] bg-purple-100 z-10 blur-xs'></div>
+            <div className='hidden md:block absolute top-0 left-1/9 w-[13vw] h-[25vh] bg-purple-100 z-10 blur-xs'></div>
             <div className="hero-layout">
                 {/* Left: Hero Content */}
                 <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>

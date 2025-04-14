@@ -1,9 +1,11 @@
 import React from 'react'
 import Hero from './sections/Hero'
+import NavBar from './components/Navbar'
 
 const App = () => {
   return (
     <>
+      <NavBar />
       <Hero />
     </>
   )
