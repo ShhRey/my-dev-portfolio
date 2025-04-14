@@ -35,7 +35,7 @@ section {
   .flex-col-center {
     @apply flex flex-col justify-center items-center;
   }
-  .proj-gradient-border {
+  .gradient-border {
     box-shadow: 0 0 5px 1px;
     box-shadow: 0 0 3px 1px #0E0E10, 
                 0 0 8px 3px #FFE873, 
@@ -158,20 +158,20 @@ section {
   
   /* Projects Section Classes and Styles */
   .app-showcase {
-    @apply w-full mt-10 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
+    @apply w-full mt-20 px-5 md:px-20 py-10 md:py-20 flex items-center justify-center;
     .showcase-layout {
       @apply flex xl:flex-row flex-col gap-10 justify-between;
     }
 
     .first-project-wrapper {
-      @apply h-auto flex flex-col justify-between xl:w-[60%] bg-black-100 p-6 rounded-xl;
-
+      @apply h-full flex flex-col justify-between xl:w-[60%];
       .image-wrapper {
-        @apply relative overflow-hidden rounded-xl;
+        @apply xl:h-[69vh] md:h-[50vh] h-80 relative;
         img {
-          @apply w-full h-auto object-cover rounded-xl;
+          @apply w-full h-full object-cover rounded-xl absolute inset-0;
         }
       }
+
       .text-content {
         @apply space-y-5 mt-5;
         .badges {
@@ -184,15 +184,15 @@ section {
     }
 
     .project-list-wrapper {
-      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%] bg-black-100 p-6 rounded-xl;
+      @apply flex md:flex-row flex-col xl:flex-col gap-10 xl:w-[40%];
       .image-wrapper {
-        @apply xl:h-[37vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
+        @apply xl:h-[35vh] md:h-52 lg:h-72 h-64 relative rounded-xl xl:px-5 2xl:px-12 py-0;
       }
       img {
         @apply w-full h-full object-contain rounded-xl;
       }
       h2 {
-        @apply text-lg md:text-xl lg:text-2xl font-semibold mt-5;
+        @apply text-lg md:text-xl lg:text-2xl font-semibold mt-1;
       }
     }
   }
