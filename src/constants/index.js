@@ -35,10 +35,27 @@ const counterItems = [
     { value: 500, suffix: "+", label: "Users Impacted" },
   ];
 
-
+  const abilities = [
+    {
+      imgPath: "images/seo.png",
+      title: "Problem-Solving Mindset",
+      desc: "Complex problems are just opportunities in disguise. I architect smart, practical solutions under pressure.",
+    },
+    {
+      imgPath: "images/chat.png",
+      title: "Transparent Collaboration",
+      desc: "Clear, consistent communication throughout the development cycle ensures you're always in the loop, no surprises.",
+    },
+    {
+      imgPath: "images/time.png",
+      title: "Delivery Discipline",
+      desc: "From startup scrums to solo builds, I've consistently shipped products on schedule without compromising quality or performance.",
+    },
+  ];
 
 export {
     navLinks,
     words,
-    counterItems
+    counterItems,
+    abilities
 }
