@@ -238,7 +238,7 @@ section {
 
 /* GlowCard Hover Effects */
 .card {
-  --gradient: linear-gradient(45deg, #FFE873, #763CAC);
+  --gradient: linear-gradient(45deg, #1c1c21, #FFE873, #763CAC);
   --start: 0;
   position: relative;
   z-index: 40;

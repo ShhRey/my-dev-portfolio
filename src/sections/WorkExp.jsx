@@ -11,10 +11,10 @@ const WorkExp = () => {
         {/* Experience Section Cards */}
         <div className="mt-30 relative">
           <div className='relative xl:space-y-30 space-y-10 z-50'>
-            {expCards.map((card) => (
+            {expCards.map((card, index) => (
               <div key={card.title} className='exp-card-wrapper'>
                 <div className="xl:w-2/6">
-                  <GlowCard card={card}>
+                  <GlowCard card={card} index={index}>
                     <div className='flex flex-col sm:flex-row justify-between items-center text-purple-50 px-5 mb-2 gap-2 sm:gap-0'>
                       <span className='text-xl'>{card.title}</span>
                       <span className='text-xl'>{card.compName}</span>
