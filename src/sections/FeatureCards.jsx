@@ -4,7 +4,7 @@ import AnimatedCounter from '../components/AnimatedCounter'
 
 const FeatureCards = () => {
     return (
-        <>
+        <section id='about'>
             {/* Rendering Animated Counters */}
             <AnimatedCounter />
 
@@ -28,7 +28,7 @@ const FeatureCards = () => {
                     ))}
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 
