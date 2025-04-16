@@ -50,7 +50,7 @@ const Projects = () => {
                     {/* Right Side: Two Projects */}
                     <div className='project-list-wrapper overflow-hidden'>
                         <div className="project" ref={proj2Ref}>
-                            <div className="image-wrapper bg-[#8169C4]">
+                            <div className="image-wrapper bg-[#876FD8]">
                                 <img src="/images/MLM-proj3.png" alt="Marketing Platform" />
                             </div>
                             <h2>Smart referrals, Smarter networks</h2>

@@ -44,8 +44,7 @@ const abilities = [
 const expCards = [
   {
     review: "Shrey brought backend expertise and product-focused thinking to the team, helping redesign platforms, streamline processes, and integrate innovative systems. His contributions were pivotal in driving business efficiency and growth.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo1.png",
+    compName: "Earnestroi Technology",
     title: "Backend Developer",
     date: "February 2022 - August 2023",
     responsibilities: [
@@ -57,8 +56,7 @@ const expCards = [
   },
   {
     review: "Shrey quickly ramped up as an intern, contributing to web scraping and automation tools that enhanced internal research processes. His adaptability and proactive mindset made a noticeable impact early on.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    compName: "Earnestroi Technology",
     title: "Backend Engineer Intern",
     date: "November 2021 - January 2022",
     responsibilities: [
