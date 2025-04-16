@@ -14,12 +14,33 @@ const WorkExp = () => {
             {expCards.map((card, index) => (
               <div key={card.title} className='exp-card-wrapper'>
                 <div className="xl:w-2/6">
-                  <GlowCard card={card} index={index}>
-                    <div className='flex flex-col sm:flex-row justify-between items-center text-purple-50 px-5 mb-2 gap-2 sm:gap-0'>
-                      <span className='text-xl'>{card.title}</span>
-                      <span className='text-xl'>{card.compName}</span>
+                  <GlowCard card={card} index={index} />
+                </div>
+
+                <div className='xl: w-4/6'>
+                  <div className="flex itens-start">
+                    <div className="timeline-wrapper">
+                      <div className='timeline' />
+                      <div className='gradient-line w-1 h-full' />
                     </div>
-                  </GlowCard>
+
+                    <div className="exp-text flex relative xl:gap-20 md:gap-10 gap-5 z-20">
+                      <div className='timeline-logo'>
+                        <img src={card.logoPath} alt="logo" />
+                      </div>
+
+                      <div>
+                        <h1 className='font-semibold text-3xl text-purple-50'>{card.title}</h1>
+                        <p className='my-5 text-white-50'>📅 {card.date}</p>
+                        <p className='text-xl italic text-yellow-100'>Responsibilities</p>
+                        <ul className='list-disc ms-5 mt-5 flex flex-col gap-5 text-white'>
+                          {card.responsibilities.map((resp) => (
+                            <li key={resp} className='text-base'>{resp}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
