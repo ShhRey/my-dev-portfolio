@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithub, FaDiscord, FaFigma } from 'react-icons/fa';
+
 const navLinks = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#project" },
@@ -116,27 +118,27 @@ const techStackIcons = [
 const socialIcons = [
   {
     name: "LinkedIn",
-    imgPath: "/images/linkedin-logo.png",
-    alt: "linkedin",
-    url: 'https://www.linkedin.com/in/shreytrivedi577'
+    icon: FaLinkedin,
+    url: 'https://www.linkedin.com/in/shreytrivedi577',
+    hoverColor: 'hover:text-blue-500'
   },
   {
     name: "GitHub",
-    imgPath: "/images/github-logo.png",
-    alt: "github",
-    url: 'https://www.github.com/ShhRey'
+    icon: FaGithub,
+    url: 'https://www.github.com/ShhRey',
+    hoverColor: 'hover:text-gray-600'
   },
   {
     name: "Discord",
-    imgPath: "/images/discord-logo.png",
-    alt: "discord",
-    url: 'https://discordapp.com/users/1149518475904159755'
+    icon: FaDiscord,
+    url: 'https://discordapp.com/users/1149518475904159755',
+    hoverColor: 'hover:text-indigo-400'
   },
   {
     name: "Figma",
-    imgPath: "/images/figma-logo.png",
-    alt: "figma",
-    url: 'https://www.figma.com/@shreytrivedi1'
+    icon: FaFigma,
+    url: 'https://www.figma.com/@shreytrivedi1',
+    hoverColor: 'hover:text-pink-400'
   },
 ];
 

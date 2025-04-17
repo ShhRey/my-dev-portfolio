@@ -12,17 +12,20 @@ const Footer = () => {
 
                 {/* Center Side of Footer */}
                 <div className="socials">
-                    {socialIcons.map((img) => (
-                        <a
-                            className={`icon bg-neutral-800`}
-                            href={img.url}
-                            key={img.name}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img src={img.imgPath} alt={img.alt} className="w-5 md:w-6 h-5 md:h-6 object-contain" />
-                        </a>
-                    ))}
+                    {socialIcons.map((item) => {
+                        const Icon = item.icon;
+                        return (
+                            <a
+                                href={item.url}
+                                key={item.name}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`icon text-white ${item.hoverColor} text-xl md:text-2xl`}
+                            >
+                                <Icon />
+                            </a>
+                        );
+                    })}
                 </div>
 
                 {/* Right Side of Footer */}
