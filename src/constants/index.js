@@ -70,7 +70,7 @@ const expCards = [
   },
 ];
 
-const techStackIcons =[
+const techStackIcons = [
   {
     name: "Web Development",
     imgPath: "/images/logos/react.png",
@@ -85,7 +85,7 @@ const techStackIcons =[
     modelPath: "/models/node_logo.glb",
     alt: "Backend Development",
     scale: 5.5,
-    rotation: [0, -Math.PI/2, 0],
+    rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Web3 Integration",
@@ -101,7 +101,7 @@ const techStackIcons =[
     modelPath: "/models/git_logo.glb",
     alt: "Git Version Control",
     scale: 0.06,
-    rotation: [0, -Math.PI/4, 0],
+    rotation: [0, -Math.PI / 4, 0],
   },
   {
     name: "Machine Learning",
@@ -113,11 +113,39 @@ const techStackIcons =[
   },
 ];
 
+const socialIcons = [
+  {
+    name: "LinkedIn",
+    imgPath: "/images/linkedin.png",
+    alt: "linkedin",
+    url: 'https://www.linkedin.com/in/shreytrivedi577@gmail.com'
+  },
+  {
+    name: "GitHub",
+    imgPath: "/images/github.png",
+    alt: "github",
+    url: 'https://www.github.com/ShhRey'
+  },
+  {
+    name: "Discord",
+    imgPath: "/images/discord.png",
+    alt: "discord",
+    url: 'https://www.discord.com/'
+  },
+  {
+    name: "Figma",
+    imgPath: "/images/figma.png",
+    alt: "figma",
+    url: 'https://www.figma.com/'
+  },
+];
+
 export {
   navLinks,
   words,
   counterItems,
   abilities,
   expCards,
-  techStackIcons
+  techStackIcons,
+  socialIcons
 }
