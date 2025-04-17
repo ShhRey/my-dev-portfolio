@@ -130,13 +130,13 @@ const socialIcons = [
     name: "Discord",
     imgPath: "/images/discord.png",
     alt: "discord",
-    url: 'https://www.discord.com/'
+    url: 'https://discordapp.com/users/1149518475904159755'
   },
   {
     name: "Figma",
     imgPath: "/images/figma.png",
     alt: "figma",
-    url: 'https://www.figma.com/'
+    url: 'https://www.figma.com/@shreytrivedi1'
   },
 ];
 
