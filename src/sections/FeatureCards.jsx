@@ -4,7 +4,7 @@ import AnimatedCounter from '../components/AnimatedCounter'
 
 const FeatureCards = () => {
     return (
-        <section id='about'>
+        <section id='about' className='section-padding'>
             {/* Rendering Animated Counters */}
             <AnimatedCounter />
 

@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useGSAP } from '@gsap/react'
+import TitleHeader from '../components/TitleHeader';
 
 // Importing GSAP Plugins for Animation
 gsap.registerPlugin(ScrollTrigger);
@@ -32,8 +33,9 @@ const Projects = () => {
     }, []);
 
     return (
-        <section id="project" className='app-showcase' ref={sectionRef}>
+        <section id="project" className='app-showcase section-padding' ref={sectionRef}>
             <div className="w-full">
+                {/* <TitleHeader title="Projects" sub="Command Lines became Real-world Solutions." /> */}
                 {/* Splitting into Two Sides */}
                 <div className='showcase-layout'>
                     {/* Left Side: Solo Project */}

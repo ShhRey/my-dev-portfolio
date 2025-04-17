@@ -221,6 +221,23 @@ section {
     @apply flex justify-center items-center w-52 h-60 relative;
   }
 
+
+  /* Contact Section Classes and Styles */
+  form {
+    label {
+      @apply block text-white-50 mb-2;
+    }
+    input, textarea {
+      @apply w-full px-4 py-4 md:text-base text-sm placeholder:text-blue-50 bg-black-200 rounded-md;
+    }
+    a {
+      @apply w-full py-4 bg-white text-black font-semibold rounded-md flex justify-center items-center gap-2;
+      img {
+        @apply inline-block;
+      }
+    }
+  }
+
 }
 
 
