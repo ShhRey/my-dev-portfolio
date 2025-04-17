@@ -116,25 +116,25 @@ const techStackIcons = [
 const socialIcons = [
   {
     name: "LinkedIn",
-    imgPath: "/images/linkedin.png",
+    imgPath: "/images/linkedin-logo.png",
     alt: "linkedin",
-    url: 'https://www.linkedin.com/in/shreytrivedi577@gmail.com'
+    url: 'https://www.linkedin.com/in/shreytrivedi577'
   },
   {
     name: "GitHub",
-    imgPath: "/images/github.png",
+    imgPath: "/images/github-logo.png",
     alt: "github",
     url: 'https://www.github.com/ShhRey'
   },
   {
     name: "Discord",
-    imgPath: "/images/discord.png",
+    imgPath: "/images/discord-logo.png",
     alt: "discord",
     url: 'https://discordapp.com/users/1149518475904159755'
   },
   {
     name: "Figma",
-    imgPath: "/images/figma.png",
+    imgPath: "/images/figma-logo.png",
     alt: "figma",
     url: 'https://www.figma.com/@shreytrivedi1'
   },
