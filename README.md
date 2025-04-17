@@ -1,12 +1,108 @@
-# React + Vite
+# 🌌 Shrey Trivedi | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This project is a carefully crafted, interactive, and visually engaging web experience built using **React**, **Tailwind CSS**, **GSAP**, and **ThreeJS**. It showcases my journey, skills, work, and passion for building impactful digital solutions.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [View Portfolio Website](https://github.com/ShhRey)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Overview
+
+This portfolio is designed with modern frontend practices and animations to reflect creativity and technical skill. Key technologies like **ThreeJS** and **GSAP** bring the interface to life, while **Tailwind CSS** ensures responsiveness and consistent styling.
+
+### ✨ Core Features
+
+- **🎯 Hero Section**
+  - Title: *"Bringing 🛠️ Code into Reality"*
+  - Animated action words using **GSAP**
+  - Interactive **ThreeJS space-themed canvas/model**, symbolizing out-of-the-box thinking
+  - Brief intro about myself, goals, and domain focus
+
+- **📊 About Section**
+  - Animated **counters** to display:
+    - Years of Experience
+    - Projects Delivered
+    - Tools Mastered
+    - Users/Clients Impacted
+
+- **🧩 Projects Section**
+  - Displayed using a responsive **Bento Grid layout**
+  - Quick overview of selected projects
+  - (🔧 Coming soon: Innovative layout redesign)
+
+- **🧠 Work Experience**
+  - Timeline format with **GSAP's Power2.easeInOut** transitions
+  - Hover effects for interaction
+  - Gradient-timeline connecting career milestones
+
+- **🛠️ Technical Skills**
+  - Categorized into core domains (Web Dev, API, Web3, ML, etc.)
+  - Each icon backed by a **.glb 3D model**
+  - Future enhancement: display frameworks/tools on hover
+
+- **📬 Contact Section**
+  - Interactive form (name, email, message)
+  - Linked with animated **ThreeJS model**
+  - Enhances user engagement & feedback loop
+
+- **🔗 Footer**
+  - Social media icons with working links
+  - Copyright © Claim
+  - Minimal and accessible
+
+---
+
+## 🧱 File Structure
+
+This modular structure ensures **scalability**, **readability**, and **easy content updates** from a single source of truth.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Component-driven UI
+- **Tailwind CSS** – Utility-first styling
+- **GSAP** – Animation & transitions
+- **ThreeJS** – 3D canvas rendering
+- **React Three Fiber** – Declarative abstraction over ThreeJS
+- **Vite** – Blazing fast development tooling
+
+---
+
+## 📈 Development Highlights
+
+- ⚙️ Constants file for centralized static data
+- 🧠 Semantic HTML & ARIA roles for accessibility
+- 📱 Fully responsive across devices
+- 🎨 Themed visuals with minimalist color palette
+- 🔍 Clean animations enhancing UX without distractions
+
+---
+
+## 💡 Upcoming Improvements
+
+- [ ] Dynamic project filtering
+- [ ] Toggleable themes (light/dark mode)
+- [ ] Backend integration for contact form
+- [ ] Blog section (Markdown + MDX)
+- [ ] Lazy loading 3D assets for performance optimization
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me:
+
+- ✉️ Email: [your-email@example.com](mailto:your-email@example.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/shrey-trivedi/)
+- 💻 [GitHub](https://github.com/shreytrivedi)
+
+---
+
+## 🙌 Acknowledgements
+
+- Inspiration from modern portfolio trends and YouTube Tutorials
+- 3D models sourced/custom-created for interactive skill display
+- Special thanks to the open-source community 🌍
