@@ -70,10 +70,54 @@ const expCards = [
   },
 ];
 
+const techStackIcons =[
+  {
+    name: "Web Development",
+    imgPath: "/images/logos/react.png",
+    modelPath: "/models/react_logo.glb",
+    alt: "Web Development",
+    scale: 0.7,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "API Engineering",
+    imgPath: "/images/logos/node.png",
+    modelPath: "/models/node_logo.glb",
+    alt: "Backend Development",
+    scale: 1,
+    rotation: [0, Math.PI/2, 0],
+  },
+  {
+    name: "Web3 Integration",
+    imgPath: "",
+    modelPath: "/models/ethereum_logo.glb",
+    alt: "Web3 Development",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Version Control",
+    imgPath: "/images/git.svg",
+    modelPath: "/models/git_logo.glb",
+    alt: "Git Version Control",
+    scale: 0.1,
+    rotation: [0, Math.PI/2, 0],
+  },
+  {
+    name: "Machine Learning",
+    imgPath: "/images/python.svg",
+    modelPath: "/models/python_logo.glb",
+    alt: "Machine Learning",
+    scale: 0.8,
+    rotation: [0, 0, 0],
+  },
+];
+
 export {
   navLinks,
   words,
   counterItems,
   abilities,
-  expCards
+  expCards,
+  techStackIcons
 }
