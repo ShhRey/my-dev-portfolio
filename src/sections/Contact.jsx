@@ -1,7 +1,9 @@
 import { useState } from "react";
 import TitleHeader from "../components/TitleHeader";
+import BotModel from "../components/models/contact/BotModel";
 
 const Contact = () => {
+    //  useState for emptying form after Submission
     const [form, setForm] = useState({
         name: "",
         email: "",
@@ -19,12 +21,19 @@ const Contact = () => {
             <div className="w-full h-full md:px-10 px-5">
                 <TitleHeader title="Get in Touch" sub="💬 Have questions or ideas? Let's talk! 🚀" />
                 {/* Main div for this Section */}
-                <div className="grid-12-cols mt-16">
-                    {/* Left Side: Contact Form */}
-                    <div className="xl:col-span-5">
-                        <div className="flex-center card-border rounded-xl p-10">
+                <div className="grid-12-cols mt-16 items-stretch">
+                    {/* Left Side: 3D Model (70%) */}
+                    <div className="xl:col-span-8 col-span-12 min-h-[400px]">
+                        <div className="w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
+                            <BotModel />
+                        </div>
+                    </div>
+                    
+                    
+                    {/* Right Side: Contact Form (30%) */}
+                    <div className="xl:col-span-4 col-span-12 mt-10 xl:mt-0">
+                        <div className="flex-center card-border rounded-xl p-10 h-full">
                             <form className="w-full flex flex-col gap-7">
-                                {/* Creating Input Fields for your Form */}
                                 <div>
                                     <label htmlFor="name">Enter Full Name</label>
                                     <input
@@ -61,8 +70,7 @@ const Contact = () => {
                                         required
                                     />
                                 </div>
-                                
-                                {/* Submit Button for Form */}
+
                                 <button type="submit">
                                     <div className="cta-button group">
                                         <div className="bg-circle" />
@@ -73,14 +81,6 @@ const Contact = () => {
                                     </div>
                                 </button>
                             </form>
-                        </div>
-                    </div>
-
-                    {/* Right Side: Some 3D Model */}
-                    <div className="xl:col-span-7 min-h-96">
-                        <div className="w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
-                            {/* <ContactExperience /> */}
-
                         </div>
                     </div>
                 </div>
