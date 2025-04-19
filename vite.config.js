@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   // GitHub Repo name for base_url
-  // base: '/my-dev-portfolio',
+  base: '/my-dev-portfolio/',
   plugins: [
     react(),
     tailwindcss()
