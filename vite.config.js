@@ -4,11 +4,15 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 // https://vite.dev/config/
-export default defineConfig({
-  // GitHub Repo name for base_url
-  base: '/my-dev-portfolio/',
-  plugins: [
-    react(),
-    tailwindcss()
-  ],
+export default defineConfig(({ command }) => {
+  const isDev = command === 'serve';
+
+  return {
+    // Add Base URL for GitHub Pages deployment if not in development
+    base: isDev ? '/' : '/my-dev-portfolio/',
+    plugins: [
+      react(),
+      tailwindcss()
+    ],
+  };
 });
