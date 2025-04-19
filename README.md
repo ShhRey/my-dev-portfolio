@@ -1,10 +1,11 @@
+
 # 🌌 Shrey Trivedi | Developer Portfolio
 
 Welcome to my personal developer portfolio! This project is a carefully crafted, interactive, and visually engaging web experience built using **React**, **Tailwind CSS**, **GSAP**, and **ThreeJS**. It showcases my journey, skills, work, and passion for building impactful digital solutions.
 
 ## 🚀 Live Demo
 
-🌐 [View Portfolio Website](https://github.com/ShhRey)
+🌐 [View Portfolio Website](https://shreytrivedi-dev-portfolio.vercel.app/)
 
 ---
 
@@ -71,6 +72,43 @@ This modular structure ensures **scalability**, **readability**, and **easy cont
 
 ---
 
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ShhRey/my-dev-portfolio.git
+cd my-dev-portfolio
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+```bash
+npm run dev
+```
+
+The app should now be running at [http://localhost:5173](http://localhost:5173) 🚀
+
+> ⚠️ **Note**: Make sure you have **Node.js ≥ 16.x** and **npm ≥ 8.x** installed.
+
+---
+
+## 🖼️ 3D Model Assets (from Sketchfab)
+
+Some of the `.glb` 3D models used in this project were downloaded from:
+
+🎨 [https://sketchfab.com](https://sketchfab.com)
+
+- You can browse **free downloadable 3D assets**
+- Filter by format: `.glb`, `.gltf`, `.fbx`
+- Always **check the license** before using
+- Models can be imported directly into your scene using `@react-three/drei` or `useGLTF()` hook
+
+---
+
 ## 📈 Development Highlights
 
 - ⚙️ Constants file for centralized static data
@@ -95,9 +133,9 @@ This modular structure ensures **scalability**, **readability**, and **easy cont
 
 Feel free to connect with me:
 
-- ✉️ Email: [your-email@example.com](mailto:your-email@example.com)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/shrey-trivedi/)
-- 💻 [GitHub](https://github.com/shreytrivedi)
+- ✉️ Email: [shreytrivedi577@gmail.com](mailto:shreytrivedi577@gmail.com)
+- 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/shreytrivedi577/)
+- 💻 GitHub: [GitHub](https://github.com/ShhRey)
 
 ---
 
