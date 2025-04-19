@@ -8,14 +8,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: 'Code', imgPath: `/images/code.svg` },
-  { text: 'Ideas', imgPath: `/images/ideas.svg` },
-  { text: 'Concepts', imgPath: `/images/concepts.svg` },
-  { text: 'Designs', imgPath: `/images/designs.svg` },
-  { text: 'Code', imgPath: `/images/code.svg` },
-  { text: 'Ideas', imgPath: `/images/ideas.svg` },
-  { text: 'Concepts', imgPath: `/images/concepts.svg` },
-  { text: 'Designs', imgPath: `/images/designs.svg` }
+  { text: 'Code', imgPath: `${import.meta.env.BASE_URL}assets/images/code.svg` },
+  { text: 'Ideas', imgPath: `${import.meta.env.BASE_URL}assets/images/ideas.svg` },
+  { text: 'Concepts', imgPath: `${import.meta.env.BASE_URL}assets/images/concepts.svg` },
+  { text: 'Designs', imgPath: `${import.meta.env.BASE_URL}assets/images/designs.svg` },
+  { text: 'Code', imgPath: `${import.meta.env.BASE_URL}assets/images/code.svg` },
+  { text: 'Ideas', imgPath: `${import.meta.env.BASE_URL}assets/images/ideas.svg` },
+  { text: 'Concepts', imgPath: `${import.meta.env.BASE_URL}assets/images/concepts.svg` },
+  { text: 'Designs', imgPath: `${import.meta.env.BASE_URL}assets/images/designs.svg` }
 ]
 
 const counterItems = [
@@ -27,17 +27,17 @@ const counterItems = [
 
 const abilities = [
   {
-    imgPath: `/images/seo.png`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/seo.png`,
     title: "Problem-Solving Mindset",
     desc: "Complex problems are just opportunities in disguise. I architect smart, practical solutions under pressure.",
   },
   {
-    imgPath: `/images/chat.png`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/chat.png`,
     title: "Transparent Collaboration",
     desc: "Clear, consistent communication throughout the development cycle ensures you're always in the loop, no surprises.",
   },
   {
-    imgPath: `/images/time.png`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/time.png`,
     title: "Delivery Discipline",
     desc: "From startup scrums to solo builds, I've consistently shipped products on schedule without compromising quality or performance.",
   },
@@ -46,7 +46,7 @@ const abilities = [
 const expCards = [
   {
     review: `" Shrey brought backend expertise and product-focused thinking to the team, helping redesign platforms, streamline processes, and integrate innovative systems. His contributions were pivotal in driving business efficiency and growth. "`,
-    logoPath: `/images/compLogo.png`,
+    logoPath: `${import.meta.env.BASE_URL}assets/images/compLogo.png`,
     compName: "Earnestroi Technology",
     title: "Backend Developer",
     date: "February 2022 - August 2023",
@@ -59,8 +59,8 @@ const expCards = [
   },
   {
     review: `" Shrey quickly ramped up as an intern, contributing to web scraping and automation tools that enhanced internal research processes. His adaptability and proactive mindset made a noticeable impact early on. "`,
-    imgPath: `/images/exp1.png`,
-    logoPath: `/images/compLogo.png`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/exp1.png`,
+    logoPath: `${import.meta.env.BASE_URL}assets/images/compLogo.png`,
     compName: "Earnestroi Technology",
     title: "Backend Engineer Intern",
     date: "November 2021 - January 2022",
@@ -76,15 +76,15 @@ const techStackIcons = [
   {
     name: "Web Development",
     imgPath: `$/images/logos/react.png`,
-    modelPath: `/models/react_logo.glb`,
+    modelPath: `${import.meta.env.BASE_URL}assets/models/react_logo.glb`,
     alt: "Web Development",
     scale: 1.3,
     rotation: [0, Math.PI, 0],
   },
   {
     name: "API Engineering",
-    imgPath: `/images/logos/node.png`,
-    modelPath: `/models/node_logo.glb`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/logos/node.png`,
+    modelPath: `${import.meta.env.BASE_URL}assets/models/node_logo.glb`,
     alt: "Backend Development",
     scale: 5.5,
     rotation: [0, -Math.PI / 2, 0],
@@ -92,23 +92,23 @@ const techStackIcons = [
   {
     name: "Web3 Integration",
     imgPath: "",
-    modelPath: `/models/ethereum_logo.glb`,
+    modelPath: `${import.meta.env.BASE_URL}assets/models/ethereum_logo.glb`,
     alt: "Web3 Development",
     scale: 0.008,
     rotation: [0, 0, 0],
   },
   {
     name: "Version Control",
-    imgPath: `/images/git.svg`,
-    modelPath: `/models/git_logo.glb`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/git.svg`,
+    modelPath: `${import.meta.env.BASE_URL}assets/models/git_logo.glb`,
     alt: "Git Version Control",
     scale: 0.06,
     rotation: [0, -Math.PI / 4, 0],
   },
   {
     name: "Machine Learning",
-    imgPath: `/images/python.svg`,
-    modelPath: `/models/python_logo.glb`,
+    imgPath: `${import.meta.env.BASE_URL}assets/images/python.svg`,
+    modelPath: `${import.meta.env.BASE_URL}assets/models/python_logo.glb`,
     alt: "Machine Learning",
     scale: 1,
     rotation: [0, 0, 0],
