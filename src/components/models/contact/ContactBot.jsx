@@ -9,18 +9,17 @@ Title: Robot Playground
 
 import React from 'react'
 import { useGraph } from '@react-three/fiber'
-import { useGLTF, useAnimations } from '@react-three/drei'
+import { useGLTF } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
 
 export function ContactBot(props) {
-  const { scene, animations } = useGLTF('/models/contact_robot.glb')
+  const { scene } = useGLTF('/models/contact_robot.glb')
   useGLTF.preload('/models/contact_robot.glb')
   
   const group = React.useRef()
   
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
-  useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
