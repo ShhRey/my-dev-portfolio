@@ -45,14 +45,14 @@ const WorkExp = () => {
                   <GlowCard card={card} index={index} />
                 </div>
 
-                <div className='xl: w-4/6'>
+                <div className='xl: w-5/6'>
                   <div className="flex items-start">
                     <div className="exp-text flex relative xl:gap-20 md:gap-10 gap-5 z-20">
                       <div className='timeline-logo'>
                         <img src={card.logoPath} alt="logo" />
                       </div>
 
-                      <div>
+                      <div className='w-full'>
                         <h1 className='font-semibold text-3xl text-purple-50'>{card.title}</h1>
                         <p className='my-5 text-white-50'>📅 {card.date}</p>
                         <p className='text-xl italic text-yellow-100'>Responsibilities</p>
