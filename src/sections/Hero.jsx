@@ -20,7 +20,7 @@ const Hero = () => {
             <div className='hidden md:block absolute top-0 left-1/9 w-[14vw] h-[25vh] bg-purple-100 z-10 blur-xs'></div>
             <div className="hero-layout">
                 {/* Left: Hero Content */}
-                <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-2'>
+                <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-8'>
                     <div className='flex flex-col gap-7'>
                         <div className='hero-text'>
                             <h1>
@@ -58,11 +58,11 @@ const Hero = () => {
                                     </li>
                                     <li className="flex gap-2">
                                         <span className="text-purple-400 text-xl">•</span>
-                                        Data Analysis & Visualization
+                                        Backend APIs & System Design
                                     </li>
                                     <li className="flex gap-2">
                                         <span className="text-purple-400 text-xl">•</span>
-                                        Blockchain Technology
+                                        Data Analysis & Visualization
                                     </li>
                                 </ul>
                             </div>
