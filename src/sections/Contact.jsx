@@ -18,12 +18,12 @@ const Contact = () => {
 
     return (
         <section id="contact" className="flex-center section-padding">
-            <div className="w-full h-full md:px-10 px-5">
+            <div className="w-full h-full md:px-10">
                 <TitleHeader title="Get in Touch" sub="💬 Have questions or ideas? Let's talk! 🚀" />
                 {/* Main div for this Section */}
-                <div className="grid-12-cols mt-16 items-stretch">
+                <div className="grid-12-cols items-stretch">
                     {/* Left Side: 3D Model (70%) */}
-                    <div className="xl:col-span-8 col-span-12 min-h-[400px]">
+                    <div className="xl:col-span-8 min-w-[400px] min-h-[350px]">
                         <div className="w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
                             <BotModel />
                         </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                     
                     
                     {/* Right Side: Contact Form (30%) */}
-                    <div className="xl:col-span-4 col-span-12 mt-10 xl:mt-0">
+                    <div className="xl:col-span-4 col-span-10 mt-10 xl:mt-0">
                         <div className="flex-center card-border rounded-xl p-10 h-full">
                             <form className="w-full flex flex-col gap-7">
                                 <div>
