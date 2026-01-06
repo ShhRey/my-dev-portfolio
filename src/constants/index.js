@@ -48,13 +48,13 @@ const expCards = [
     review: `" Shrey brought backend expertise and product-focused thinking to the team, helping redesign platforms, streamline processes, and integrate innovative systems. His contributions were pivotal in driving business efficiency and growth. "`,
     logoPath: `images/compLogo.png`,
     compName: "Earnestroi Technology",
-    title: "Backend Developer",
+    title: "Software Developer",
     date: "February 2022 - August 2023",
     responsibilities: [
-      "Migrated legacy applications to Django and FastAPI, increasing system efficiency by 15%.",
-      "Redesigned the UI/UX and built complete backend APIs in Django for a MLM Platform, leading to a 40% boost in client revenue.",
-      "Developed decentralized apps (DApps) using Web3 and Solidity to support blockchain-powered features.",
-      "Engineered custom algorithmic trading libraries in Python with React frontends, improving performance by 25%.",
+      "Migrated legacy applications to Django and FastAPI, improving API response times, maintainability, and overall system efficiency.",
+      "Redesigned and implemented end-to-end backend APIs using Django and led a UI/UX redesign, contributing to a 30% increase in client revenue for a B2C marketing platform.",
+      "Developed blockchain-based decentralized applications (DApps) using Solidity and Web3, focusing on smart contract interaction and frontend integration.",
+      "Engineered Python-based algorithmic trading libraries with React dashboards, achieving a 25% performance improvement through optimized data processing.",
     ],
   },
   {
@@ -64,9 +64,9 @@ const expCards = [
     title: "Backend Engineer Intern",
     date: "November 2021 - January 2022",
     responsibilities: [
-      "Automated Telegram-based user engagement using Python/NodeJS bots, improving communication reach by 10%.",
-      "Formulated web scraping tools using Selenium and Node.js for competitive analysis and data collection.",
-      "Utilized charting libraries to develop visual data dashboards, improving research insights by 35%.",
+      "Automated Telegram-based user engagement workflows using Python and Node.js bots, expanding communication reach.",
+      "Created web scraping and data ingestion pipelines using Selenium, Puppeteer and Node.js to support competitive analysis and structured data collection.",
+      "Designed interactive data visualization dashboards using charting libraries, enhancing research insights and decision-making.",
     ]
   },
 ];
